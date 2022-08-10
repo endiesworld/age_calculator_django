@@ -18,7 +18,7 @@ def calculate_age(request):
         return Response(content, status=status.HTTP_400_BAD_REQUEST)
     try:
         date_time = datetime.fromtimestamp(dob)
-    except OverflowError as e:
+    except (OverflowError, ValueError) as e:
         content = {'error': 'Wrong dob value'}
         return Response(content, status=status.HTTP_400_BAD_REQUEST)
 
