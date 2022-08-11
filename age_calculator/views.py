@@ -32,10 +32,6 @@ def calculate_age(request):
 
     dob = date(year, month, day)
     age = datetime.now().date() - dob
-    if age <= 0:
-        content = {'error': 'Wrong dob value'}
-        return Response(content, status=status.HTTP_400_BAD_REQUEST)
-
     age_years = age // timedelta(days=365)
     content = {'timestamp': date_time, 'year': year,
                'month': month, 'day': day, 'age': age_years}
