@@ -30,5 +30,5 @@ The calculate_age function accept a timestamp parameter and return a json string
 
 ## Handled Exceptions
 
-+ OverflowError and ValueError: Negative timestamp values, for this case, values that evalutes to less than the year 1970
-+ KeyError: Null, empty query string and wrong data type for timestamp values
+    + OverflowError and ValueError: Negative timestamp values, for this case, values that evalutes to less than the year 1970
+    + KeyError: Null, empty query string and wrong data type for timestamp values
