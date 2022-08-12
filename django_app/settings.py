@@ -10,7 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 
-from urllib.parse import urlparse
+# from urllib.parse import urlparse
 from django.core.management.utils import get_random_secret_key
 from pathlib import Path
 import sys

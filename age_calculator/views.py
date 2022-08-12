@@ -13,12 +13,12 @@ from rest_framework import status
 def calculate_age(request):
     try:
         dob = float(request.GET['dob'])
-    except (KeyError,  ValueError) as e:
+    except (KeyError,  ValueError):
         content = {'error': 'bad dob query'}
         return Response(content, status=status.HTTP_400_BAD_REQUEST)
     try:
         date_time = datetime.fromtimestamp(dob, tz=timezone.utc)
-    except (OverflowError, ValueError) as e:
+    except (OverflowError, ValueError):
         content = {'error': 'Wrong dob value'}
         return Response(content, status=status.HTTP_400_BAD_REQUEST)
 
