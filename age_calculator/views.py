@@ -1,7 +1,7 @@
 # from django.shortcuts import render
 
 # Create your views here.
-from datetime import datetime, timedelta, date, timezone
+from datetime import datetime, timezone
 from rest_framework.response import Response
 from rest_framework.decorators import api_view, throttle_classes
 from rest_framework.throttling import AnonRateThrottle
