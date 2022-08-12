@@ -1,5 +1,7 @@
 # Backend Assessment
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/13dc09cacbec4d68872ea70cca16651e)](https://app.codacy.com/gh/endiesworld/age_calculator_django?utm_source=github.com&utm_medium=referral&utm_content=endiesworld/age_calculator_django&utm_campaign=Badge_Grade_Settings)
+
 Build and deploy a very simple API that does the following
 
 1.  Calculate and return the age of a person, given their date of birth (dob) as query parameters to `GET /howold`
