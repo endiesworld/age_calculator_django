@@ -1,4 +1,7 @@
+
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/31384179c85f478a83385148a51eed37)](https://www.codacy.com/gh/endiesworld/age_calculator_django/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=endiesworld/age_calculator_django&amp;utm_campaign=Badge_Grade)
 # Backend Assessment
+
 
 Build and deploy a very simple API that does the following
 
